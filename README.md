@@ -1,2 +1,2 @@
 # Birth
-Birth is an Immediate Retweet Tools with a Heart.
+Birth is an Immediate Retweet Tool with a Heart.
