@@ -1,0 +1,17 @@
+﻿<Window x:Class="Birth_First.PIN_Code"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Birth_First"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="PIN_Code" Height="530" Width="400" Visibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Disabled" Background="White" Closing="closing" Icon="icon.ico">
+    <Grid Height="501" VerticalAlignment="Top">
+        <WebBrowser x:Name="pinbrowser" HorizontalAlignment="Left" Height="468" VerticalAlignment="Top" Width="382" />
+        <Button x:Name="Pin_Button" Content="Authentication" HorizontalAlignment="Left" Margin="274,468,0,0" VerticalAlignment="Top" Width="108" Height="23" Click="Pin_Button_Click"/>
+        <TextBox x:Name="Pin_Number" Height="23" Margin="118,468,0,0" TextWrapping="Wrap" Width="156" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center" TextChanged="Pin_Number_TextChanged"/>
+        <TextBlock x:Name="Pin_Label" HorizontalAlignment="Left" Margin="0,468,0,0" TextWrapping="Wrap" Height="23" Width="118" FontSize="18" Text="PIN Code" TextAlignment="Center" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
