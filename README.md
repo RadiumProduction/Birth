@@ -48,7 +48,7 @@ You must connection to the internet...
 
 
 ## Download
-Latest Version :[version &beta;](https://github.com/curonet/Birth/blob/master/LICENSE)  
+Latest Version :[version &beta;](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.0.zip)  
 It's not official version.
 
 
@@ -89,7 +89,6 @@ Both only amazon.co.jp
 
 ##Twitter 
 Birth official	Twitter account is [@birth_rh](https://twitter.com/birth_rt)  
-<a class="twitter-timeline" href="https://twitter.com/birth_rt">Tweets by birth_rt</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>  
 
 ## Licence
 
