@@ -1,6 +1,6 @@
 # Birth
 Birth is an Immediate Retweet Tool with a Heart.   
-<img src="https://github.com/curonet/Birth/blob/master/img/cap1.png " width="250">
+<img src="https://github.com/curonet/Birth/blob/master/img/cap1.png " width="400">
 ***
 
 ## Description
@@ -35,11 +35,12 @@ coming soon...
 ## Operating
 This App supports for Windows only.
 
-|:------------:|:------------:|  
-| OS | Windows 8.1/10 |  
-| CPU | 1.6GHz |  
-| RAM | 2G |  
-| Platform | .Net Frameworks 4.5.2 |
+| Å@| Å@|
+|:------------:|:------------:| 
+| OS | Windows 8.1/10 | 
+| CPU | 1.6GHz | 
+| RAM | 2G | 
+| Platform | .Net Frameworks 4.5.2 | 
 
 
 ## Usage
@@ -47,7 +48,7 @@ You must connection to the internet...
 
 
 ## Download
-Latest Version :[É¿ version](https://github.com/curonet/Birth/blob/master/LICENSE)  
+Latest Version :[&beta version](https://github.com/curonet/Birth/blob/master/LICENSE)  
 It's not official version.
 
 
