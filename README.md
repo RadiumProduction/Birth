@@ -35,8 +35,7 @@ coming soon...
 ## Operating
 This App supports for Windows only.
 
-| Å@| Å@|
-|:------------:|:------------:| 
+
 | OS | Windows 8.1/10 | 
 | CPU | 1.6GHz | 
 | RAM | 2G | 
@@ -48,7 +47,7 @@ You must connection to the internet...
 
 
 ## Download
-Latest Version :[&beta version](https://github.com/curonet/Birth/blob/master/LICENSE)  
+Latest Version :[&beta; version](https://github.com/curonet/Birth/blob/master/LICENSE)  
 It's not official version.
 
 
