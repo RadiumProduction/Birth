@@ -33,9 +33,10 @@ coming soon...
 
 
 ## Operating
-This App supports for Windows only.
+This app supports for Windows only.
 
-
+| |Recommended |
+|:------------:|:------------:| 
 | OS | Windows 8.1/10 | 
 | CPU | 1.6GHz | 
 | RAM | 2G | 
@@ -47,7 +48,7 @@ You must connection to the internet...
 
 
 ## Download
-Latest Version :[&beta; version](https://github.com/curonet/Birth/blob/master/LICENSE)  
+Latest Version :[version &beta;](https://github.com/curonet/Birth/blob/master/LICENSE)  
 It's not official version.
 
 
@@ -86,8 +87,15 @@ Please send by E-mail type for "radiumproduction(at)yahoo.co.jp"
 Both only amazon.co.jp  
 *I'll not accept returns and refund for any reasons..plz be careful, thank you.*
 
+##Twitter 
+Birth official	Twitter account is [@birth_rh](https://twitter.com/birth_rt)  
+<a class="twitter-timeline" href="https://twitter.com/birth_rt">Tweets by birth_rt</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>  
+
 ## Licence
 
 Copyright (c) 2016 curonet
 Birth Released under the [MIT license](https://github.com/curonet/Birth/blob/master/LICENSE)
 
+##Log
+
+* 2016/11/2 -varsion 0.1.0(version &beta;) released.
