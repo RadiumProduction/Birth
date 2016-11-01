@@ -1,6 +1,6 @@
 # Birth
 Birth is an Immediate Retweet Tool with a Heart.   
-![birth](https://github.com/curonet/Birth/blob/master/img/cap1.png = 250x)
+<img src="https://github.com/curonet/Birth/blob/master/img/cap1.png " width="250">
 ***
 
 ## Description
