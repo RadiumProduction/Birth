@@ -48,8 +48,8 @@ You must connection to the internet...
 
 
 ## Download
-Latest Version :[Version &beta (0.1.2);](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.2.zip)  
-[Version &beta (0.1.0);](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.0.zip)  
+Latest Version :[Version &beta; (0.1.2)](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.2.zip)  
+[Version &beta; (0.1.0)](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.0.zip)  
 It's not official version.
 
 
