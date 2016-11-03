@@ -20,9 +20,8 @@ namespace Birth_First
         Canvas      backcanvus = null;
         Grid        Base = new Grid();
         Grid        back = new Grid();
-        TextBlock Text = new TextBlock();
+        TextBlock   Text = new TextBlock();
         Image       close = new Image();
-        //Image       back = new Image();
         Label       button = new Label();
 
         Key_Erea key_erea;
@@ -32,11 +31,6 @@ namespace Birth_First
         Timer timer = null;
         public class ButtonType
         {
-            /*
-            public static int New { get{ return 0;} }
-            public static int Interval { get { return 1; } }
-            public static int Times { get { return 2; } }
-            */
             public const int New = 0;
             public const int Interval = 1;
             public const int Time = 2;
@@ -47,7 +41,6 @@ namespace Birth_First
         public InfoBox(MainWindow fromwin,Panel frommain)
         {
 
-            //Console.WriteLine("Infobox Make");
             window = fromwin;
             mother = frommain;
 
@@ -58,7 +51,6 @@ namespace Birth_First
             Base.Height = 80;
             Base.VerticalAlignment = System.Windows.VerticalAlignment.Top;
             Base.HorizontalAlignment = System.Windows.HorizontalAlignment.Right;
-            //Base.Margin = new Thickness(0, 25, 0, 0);
             Canvas.SetTop(Base, 0);
             Canvas.SetLeft(Base, Base.Width);
 
@@ -67,8 +59,6 @@ namespace Birth_First
             back.Margin = new Thickness(border);
             back.Width = Base.Width - (border * 2);
             back.Height = Base.Height - (border * 2);
-            //Base.bo = new SolidColorBrush(Color.FromArgb(205, 50, 220, 220));
-            //back.Source = new BitmapImage(new Uri("img/infoback.png", UriKind.Relative));
             Base.Children.Add(back);
 
             Set_Back();
@@ -126,6 +116,10 @@ namespace Birth_First
             
             Set_Back();
             Text.Text = text;
+            if (Properties.Resources.Culture == System.Globalization.CultureInfo.GetCultureInfo("fr"))
+                Text.FontSize = 10;
+            else
+                Text.FontSize = 12;
 
 
             var st_board = new Storyboard();
@@ -145,6 +139,8 @@ namespace Birth_First
         {
             if (time > 0)
             {
+                if(timer!=null)
+                    timer.Change(Timeout.Infinite, Timeout.Infinite);
                 timer = new Timer(new TimerCallback(Close), null, time, time);
             }
             Open(text);

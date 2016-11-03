@@ -98,6 +98,8 @@ namespace Birth_First
         [DataMember]
         public static string[] language     = { "Auto", "Japanese(ja-JP)", "English(en-US)", "Français(fr)" };
         [DataMember]
+        public static string data            = "data";
+        [DataMember]
         public static string tmp            = "tmp";
         [DataMember]
         public static string tmpkey         = tmp+"/latest.br"; 
@@ -188,8 +190,7 @@ namespace Birth_First
 
         Canvas Cover = new Canvas();
         double[] rt_pos = new double[2];
-        //int set_acc = 0;//number of accounts
-        //private Check_Num check_num = new Check_Num();
+
         bool IsStarted = false;
         DateTime tcstartDt = DateTime.Now;
         bool title_clicking= false;
@@ -300,6 +301,7 @@ namespace Birth_First
                 this.Close();
             else
             {
+                this.IsEnabled = true;
                 this.Load_Token();
                 this.Show();
                 setting = null;
@@ -315,6 +317,9 @@ namespace Birth_First
 
 
             InitializeComponent();
+
+            this.Visibility = Visibility.Hidden;
+
             Load_Setting();
             Load_NGdata();
 
@@ -324,6 +329,35 @@ namespace Birth_First
                 second_run = true;
                 this.Close();
             }
+
+            if (!(Network.Network_Connected()))
+            {
+                var dlg = new emanual.Wpf.Utility.MessageBoxEx();
+                dlg.Message = "Brith";
+                dlg.Width = 350;
+                dlg.Height = 165;
+                dlg.TextBlock.Height = 65;
+                dlg.TextBlock.Inlines.Add(new System.Windows.Documents.Bold(new System.Windows.Documents.Run(Properties.Resources.network_error_1)));
+                dlg.TextBlock.Inlines.Add(Properties.Resources.network_error_2);
+
+                //dlg.Owner = this;
+                dlg.Left = this.Left + 50;
+                dlg.Top = this.Top + 50;
+
+                //dlg.Background = Brushes.Wheat;
+                dlg.Button = MessageBoxButton.OK;
+                dlg.Image = MessageBoxImage.Warning;
+
+                dlg.Result = MessageBoxResult.OK;
+                dlg.ShowDialog();
+
+                this.Close();
+                return;
+            }
+
+
+
+
 
             window.SizeChanged += OnSizeChanged;
 
@@ -338,6 +372,8 @@ namespace Birth_First
 
             if (!(Directory.Exists(Pass.tmp)))
                 Directory.CreateDirectory(Pass.tmp);
+            if (!(Directory.Exists(Pass.data)))
+                Directory.CreateDirectory(Pass.data);
 
 
             if (!(Directory.Exists(Pass.pindir)))
@@ -347,6 +383,7 @@ namespace Birth_First
                 Pincode.Closed += this.PIN_Code_Closed;
                 Pincode.Show();
                 this.Hide();
+                this.IsEnabled = false;
             }
             else
             {
@@ -428,6 +465,8 @@ namespace Birth_First
             //info.Refresh();
 
             info.GetKeyAndTitleAndColor(key_erea,title, color_list);
+
+            this.Visibility = Visibility.Visible;
         }
 
 
@@ -511,6 +550,7 @@ namespace Birth_First
             Add_Pin.Topmost = true;
             Add_Pin.Closed += this.PIN_Code_Closed;
             Add_Pin.Show();
+            this.IsEnabled = false;
         }
 
         private void Delete_Account(object sender, Num_With e)
@@ -750,7 +790,15 @@ namespace Birth_First
             {
                 mutex.ReleaseMutex();
                 mutex.Close();
-                setting.Setting_Store();
+                try
+                {
+                    setting.Setting_Store();
+                }
+                catch
+                {
+
+                }
+
             }
 
         }

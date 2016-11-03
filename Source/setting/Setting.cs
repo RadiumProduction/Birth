@@ -70,7 +70,7 @@ namespace Birth_First
         }
 
         public static Num limit_num = new Num(null, 10000);
-        public static Num interval = new Num(5,10000); 
+        public static Num interval = new Num(10,10000); 
 
 }
 
@@ -551,42 +551,25 @@ namespace Birth_First
             }
             else
             {
+
                 if (!(num == ""))
                 {
                     setdata.SetValue(((TextBox)(sender)).Name, int.Parse(num));
                     info.Close();
                 }
-            }/*
-            if (!(Single.TryParse(num, out x)))
-            {
-                if (!(num == ""))
+                if (int.Parse(setdata.GetValue(setdata.limit_num).ToString())>=250)
                 {
-                    info.Open(Properties.Resources.info_number, 5000);
-                    ((TextBox)(sender)).Text = old_text;
-                    ((TextBox)(sender)).Select(old_selection, 0);
+                    if (double.Parse(setdata.GetValue(setdata.interval).ToString()) < 40)
+                    {
+                        info.Open(Properties.Resources.info_rt_limits, 5000);
+                    }
                 }
-            }
-            else if (int.Parse(num) > 10000)
-            {
-                //制限の旨を表示
-                info.Open(Properties.Resources.info_unvaild+Environment.NewLine+"(～10000)", 5000);
-                ((TextBox)(sender)).Text = old_text;
-                ((TextBox)(sender)).Select(old_selection, 0);
-            }
-            else if ((int.Parse(num) < 5) && (((TextBox)(sender)).Name == setdata.interval))
-            {
-                //制限の旨を表示
-                info.Open(Properties.Resources.info_unvaild + Environment.NewLine+ "(5～)", 5000);
-            }
-            else
-            {
-                if (!(num == ""))
+                if ((int.Parse(num) < Range.interval.min * 2) && name == setdata.interval)
                 {
-                    setdata.SetValue(((TextBox)(sender)).Name, int.Parse(num));
-                    info.Close();
+                    info.Open(Properties.Resources.info_toomach, 5000);
                 }
+
             }
-            */
             old_selection = ((TextBox)(sender)).SelectionStart;
             old_text = ((TextBox)(sender)).Text;
             IsChanging = false;

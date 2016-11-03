@@ -48,7 +48,8 @@ You must connection to the internet...
 
 
 ## Download
-Latest Version :[version &beta;](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.0.zip)  
+Latest Version :[Version &beta (0.1.2);](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.2.zip)  
+[Version &beta (0.1.0);](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.0.zip)  
 It's not official version.
 
 
@@ -97,4 +98,8 @@ Birth Released under the [MIT license](https://github.com/curonet/Birth/blob/mas
 
 ##Log
 
-* 2016/11/2 -varsion 0.1.0(version &beta;) released.
+* 2016/11/4 -version 0.1.2(version &beta;) released.
+** Add network Connection check.
+** Add display of something warning
+** Correct Bugs.
+* 2016/11/2 -version 0.1.0(version &beta;) released.  

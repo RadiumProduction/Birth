@@ -97,6 +97,27 @@ namespace Birth_First.Properties {
         }
         
         /// <summary>
+        ///   In this configration,
+        ///If you can be got API rate Limits. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string info_rt_limits {
+            get {
+                return ResourceManager.GetString("info_rt_limits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   In this configuration ,
+        ///it can be that seemes like spam.
+        ///You may troble for your follower... に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string info_toomach {
+            get {
+                return ResourceManager.GetString("info_toomach", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   The number is not valid. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string info_unvaild {
@@ -129,6 +150,25 @@ namespace Birth_First.Properties {
         public static string multiple_startup_title {
             get {
                 return ResourceManager.GetString("multiple_startup_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Network Error! に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string network_error_1 {
+            get {
+                return ResourceManager.GetString("network_error_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Birth need to conect Internet.
+        ///Please confirm to your network. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string network_error_2 {
+            get {
+                return ResourceManager.GetString("network_error_2", resourceCulture);
             }
         }
         

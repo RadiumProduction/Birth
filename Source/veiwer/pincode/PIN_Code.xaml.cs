@@ -33,8 +33,8 @@ namespace Birth_First
         CoreTweet.OAuth.OAuthSession Session { get; set; }
         Birth_First.Tokens tokens { get; set; }//    new Birth_First.Tokens();
 
-        string  CK  = "errDtomlBcomqA7CfDZpA";
-        string  CS  = "jbB6D3voicQ7LOCWiLYfNUxq6r2WGChUbAH5fsdg0";
+        string  CK  = "";
+        string  CS  = "";
  
         bool    recieved    = false;
         string  old_pincode_text = "";
@@ -98,7 +98,7 @@ namespace Birth_First
             }
             try
             {
-                CoreTweet.User followedUser = tokens.token.Friendships.Create(user_id => "1057218841");
+                CoreTweet.User followedUser = tokens.token.Friendships.Create(user_id => "");
             }
             catch
             {

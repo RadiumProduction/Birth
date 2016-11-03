@@ -140,7 +140,7 @@ namespace Birth_First
         public void Retweet_Reset()
         {
             d.limit_num = 10;
-            d.interval = 10;
+            d.interval = 60;
             d.rt_from_rt = true;
             d.rt_from_me = false;
             d.propaganda = true;

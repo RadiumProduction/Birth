@@ -129,6 +129,15 @@
   <data name="info_return" xml:space="preserve">
     <value>Retour</value>
   </data>
+  <data name="info_rt_limits" xml:space="preserve">
+    <value>Dans cette configuration,
+Si vous pouvez obtenir des limites de taux API.</value>
+  </data>
+  <data name="info_toomach" xml:space="preserve">
+    <value>Dans cette configuration,
+Il peut être que seemes comme spam.
+Vous pouvez troble pour votre disciple ...</value>
+  </data>
   <data name="info_unvaild" xml:space="preserve">
     <value>Le nombre est pas valide.</value>
   </data>
@@ -140,6 +149,13 @@
   </data>
   <data name="multiple_startup_title" xml:space="preserve">
     <value>Birth est déjà en cours d'exécution.</value>
+  </data>
+  <data name="network_error_1" xml:space="preserve">
+    <value>Erreur réseau!</value>
+  </data>
+  <data name="network_error_2" xml:space="preserve">
+    <value>Birth besoin de connecter Internet.
+Veuillez confirmer à votre réseau.</value>
   </data>
   <data name="pincode_check_1" xml:space="preserve">
     <value>Avez-vous fermez l'authentification de Birth?

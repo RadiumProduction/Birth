@@ -129,6 +129,15 @@
   <data name="info_return" xml:space="preserve">
     <value>Return</value>
   </data>
+  <data name="info_rt_limits" xml:space="preserve">
+    <value>In this configration,
+If you can be got API rate Limits.</value>
+  </data>
+  <data name="info_toomach" xml:space="preserve">
+    <value>In this configuration ,
+it can be that seemes like spam.
+You may troble for your follower...</value>
+  </data>
   <data name="info_unvaild" xml:space="preserve">
     <value>The number is not valid.</value>
   </data>
@@ -140,6 +149,13 @@
   </data>
   <data name="multiple_startup_title" xml:space="preserve">
     <value>Birth is already running.</value>
+  </data>
+  <data name="network_error_1" xml:space="preserve">
+    <value>Network Error!</value>
+  </data>
+  <data name="network_error_2" xml:space="preserve">
+    <value>Birth need to conect Internet.
+Please confirm to your network.</value>
   </data>
   <data name="pincode_check_1" xml:space="preserve">
     <value>Do you close the authentication of Birth?

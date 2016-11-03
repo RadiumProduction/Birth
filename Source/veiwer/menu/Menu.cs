@@ -183,7 +183,7 @@ namespace Birth_First
             string exeFullPath = System.IO.Path.GetFullPath(exePath);
             string path = System.IO.Path.GetDirectoryName(exeFullPath);
             SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.InitialDirectory = path + "\\";
+            //saveFileDialog.InitialDirectory = path + "\\";
             saveFileDialog.FilterIndex = 1;
             saveFileDialog.FileName = key_erea.name;
             saveFileDialog.Filter = "Birth ファイル(.br)|*.br";

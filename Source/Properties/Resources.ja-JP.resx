@@ -129,6 +129,15 @@
   <data name="info_return" xml:space="preserve">
     <value>戻す</value>
   </data>
+  <data name="info_rt_limits" xml:space="preserve">
+    <value>現在の設定だと
+API規制を受ける可能性があります。</value>
+  </data>
+  <data name="info_toomach" xml:space="preserve">
+    <value>現在の設定だと場合によって
+他のユーザーへの迷惑行為となる
+可能性があります。</value>
+  </data>
   <data name="info_unvaild" xml:space="preserve">
     <value>有効な数字ではありません。</value>
   </data>
@@ -141,6 +150,13 @@
   <data name="multiple_startup_title" xml:space="preserve">
     <value>二重起動防止</value>
   </data>
+  <data name="network_error_1" xml:space="preserve">
+    <value>ネットワークエラー</value>
+  </data>
+  <data name="network_error_2" xml:space="preserve">
+    <value>インターネットに接続できません。
+接続を確認してください。</value>
+  </data>
   <data name="pincode_check_1" xml:space="preserve">
     <value>Birth認証を終了しますか？
 
@@ -151,7 +167,7 @@
 </value>
   </data>
   <data name="pincode_check_3" xml:space="preserve">
-    <value>PINコードはWindow下のボックスに入力してください。</value>
+    <value>PINコードはウィンドウ下のボックスに入力してください。</value>
   </data>
   <data name="pincode_error_1" xml:space="preserve">
     <value>PINコードが正常に認識されませんでした。
