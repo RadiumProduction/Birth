@@ -98,8 +98,8 @@ Birth Released under the [MIT license](https://github.com/curonet/Birth/blob/mas
 
 ##Log
 
-* 2016/11/4 -version 0.1.2(version &beta;) released.
-** Add network Connection check.
-** Add display of something warning
-** Correct Bugs.
+* 2016/11/4 -version 0.1.2(version &beta;) released.  
+ * Add network Connection check.  
+ * Add display of something warning.  
+ * Correct Bugs.  
 * 2016/11/2 -version 0.1.0(version &beta;) released.  
