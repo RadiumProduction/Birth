@@ -4,11 +4,11 @@ Birth is an Immediate Retweet Tool with a Heart.
 ***
 
 ## Description
-Birth is SNS Twitter Application ,but it can only retweet tweets and send a favorite.  
-Birth can retweet specified tweet and also can send a favorite (heart).
+Birth is a SNS Twitter Application ,but it can only retweet tweets and send a favorite.  
+Birth can retweet specified tweets and also can send a favorite (heart).
 
 ## Why Birth?
-Birth is initials word.  
+Birth is acronym of following.
 It means "**B**irth is an **I**mmediate **R**etweet **T**ool with a **H**eart."  
 Birth can retweet immediately.
 
@@ -17,10 +17,11 @@ Birth can retweet immediately.
 * Retweet specified tweets.  
 * Favorite retweets.
 * Save and load specified data "birth data".(Extension is ".br".)
-* Blocked list. (If you register word or account to block list, Birth don't retweet the tweet included it,)
+* Register plurality of twitter accounts.
+* Blocked list. (If you register words or account to block list, Birth doesn't retweet tweets included these,)
 * Tweet about staus of use. (The number of times that Birth retweeted,)
 * Set interval for retweet and limit number of retweeted times. 
-* Select tweet's extraction form which account's timeline.
+* Select tweets description timeline.
 * Select languege. (Japanese,English,French)
 * Theme change. (Five colors)
 * Set wallpaper of app.
@@ -33,24 +34,24 @@ coming soon...
 
 
 ## Operating
-This app supports for Windows only.
+This app supports currently only for Windows.
 
 | |Recommended |
 |:------------:|:------------:| 
 | OS | Windows 8.1/10 | 
-| CPU | 1.6GHz | 
-| RAM | 2G | 
+| CPU | 1.6G Hz | 
+| RAM | 2G byte | 
 | Platform | .Net Frameworks 4.5.2 | 
 
 
 ## Usage
-You must connection to the internet...
+You must have connection to the internet...
 
 
 ## Download
-Latest Version :[Version &beta; (0.1.2)](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.2.zip)  
+The Latest Version :[Version &beta; (0.1.2)](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.2.zip)  
 [Version &beta; (0.1.0)](http://file.radiumproduction.blog.shinobi.jp/Birth_0.1.0.zip)  
-It's not official version.
+It's not the official version.
 
 
 ## Install
@@ -86,7 +87,7 @@ Please send by E-mail type for "radiumproduction(at)yahoo.co.jp"
 * Amazon wish list :[wishlist@curonet](https://www.amazon.co.jp/gp/registry/wishlist/306ZZ1E7TFK4V/ref=cm_wl_sortbar_o_page_2?ie=UTF8&page=2)   
 
 Both only amazon.co.jp  
-*I'll not accept returns and refund for any reasons..plz be careful, thank you.*
+*I don't accept returns and refund for any reasons..plz be careful, thank you.*
 
 ##Twitter 
 Birth official	Twitter account is [@birth_rh](https://twitter.com/birth_rt)  
@@ -101,5 +102,5 @@ Birth Released under the [MIT license](https://github.com/curonet/Birth/blob/mas
 * 2016/11/4 -version 0.1.2(version &beta;) released.  
  * Add network Connection check.  
  * Add display of something warning.  
- * Correct Bugs.  
+ * fix Bugs.  
 * 2016/11/2 -version 0.1.0(version &beta;) released.  
