@@ -4,12 +4,12 @@ Birth is an Immediate Retweet Tool with a Heart.
 ***
 
 ## Description
-Birth is a SNS Twitter Application ,but it can only retweet tweets and send a favorite.  
-Birth can retweet specified tweets and also can send a favorite (heart).
+Birth is a SNS Twitter Application ,but it can only retweet tweets and send a heart(favorite).  
+Birth can retweet specified tweets and also can send a  heart.
 
 ## Why Birth?
 Birth is acronym of following.
-It means "**B**irth is an **I**mmediate **R**etweet **T**ool with a **H**eart."  
+"**B**irth is an **I**mmediate **R**etweet **T**ool with a **H**eart."  
 Birth can retweet immediately.
 
 
@@ -18,12 +18,12 @@ Birth can retweet immediately.
 * Favorite retweets.
 * Save and load specified data "birth data".(Extension is ".br".)
 * Register plurality of twitter accounts.
-* Blocked list. (If you register words or account to block list, Birth doesn't retweet tweets included these,)
+* Blocked list. (If you register words or accounts to block list, Birth doesn't retweet tweets included these.)
 * Tweet about staus of use. (The number of times that Birth retweeted,)
 * Set interval for retweet and limit number of retweeted times. 
 * Select tweets description timeline.
 * Select languege. (Japanese,English,French)
-* Theme change. (Five colors)
+* Chamge themes. (Five colors)
 * Set wallpaper of app.
 * Automatic save of setting data.(birth data expecting.)
 
@@ -56,8 +56,8 @@ It's not the official version.
 
 ## Install
 Now, Birth is offered only ZIP files.
-So, you need to download the above links and decompress ZIP file.  
-Of course, if you move only exe file without other files to other directory, Birth can't run.  
+So, you need to download the above links and decompress the ZIP file.  
+Of course, if you move only a exe file without other files to other directory, Birth can't run.  
 Birth requires *.Net Frameworks 4.5.2*. 
 
 
@@ -90,7 +90,7 @@ Both only amazon.co.jp
 *I don't accept returns and refund for any reasons..plz be careful, thank you.*
 
 ##Twitter 
-Birth official	Twitter account is [@birth_rh](https://twitter.com/birth_rt)  
+Birth official	Twitter account is [@birth_rt](https://twitter.com/birth_rt)  
 
 ## Licence
 
