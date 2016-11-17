@@ -71,7 +71,7 @@ From The MIT License
 C# WPF  
 Microsoft Visual Studio 2015
 
-###Using liberally
+###Using liberallies
 CoreTweet  
 Copyright (c) 2013-2016 CoreTweet Development Team
 
