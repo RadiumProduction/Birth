@@ -16,7 +16,7 @@ Birth can retweet immediately.
 ##Basic functionality
 * Retweet specified tweets.  
 * Favorite retweets.
-* Save and load specified data "birth data".(Extension is ".br".)
+* Save and load specification data "birth data".(Extension is ".br".)
 * Register plurality of twitter accounts.
 * Blocked list. (If you register words or accounts to block list, Birth doesn't retweet tweets included these.)
 * Tweet about staus of use. (The number of times that Birth retweeted,)
