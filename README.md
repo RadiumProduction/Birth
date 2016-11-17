@@ -8,7 +8,7 @@ Birth is a SNS Twitter Application ,but it can only retweet tweets and send a he
 Birth can retweet specified tweets and also can send a  heart.
 
 ## Why Birth?
-Birth is acronym of following.
+Birth is acronym of following.  
 "**B**irth is an **I**mmediate **R**etweet **T**ool with a **H**eart."  
 Birth can retweet immediately.
 
@@ -40,7 +40,7 @@ This app supports currently only for Windows.
 |:------------:|:------------:| 
 | OS | Windows 8.1/10 | 
 | CPU | 1.6G Hz | 
-| RAM | 2G byte | 
+| RAM | 1G byte | 
 | Platform | .Net Frameworks 4.5.2 | 
 
 
