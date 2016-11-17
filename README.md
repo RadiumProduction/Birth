@@ -84,7 +84,7 @@ Copyright (c) 2007 James Newton-King
 [![amazon](http://ecx.images-amazon.com/images/G/09/2011/x-site/gc/gc-assoc234x60.gif)](https://www.amazon.co.jp/gp/product/B004N3APGO/ref=gc_lpt3_ttl_eml)   
 Please send by E-mail type for "radiumproduction(at)yahoo.co.jp"  
 
-* Amazon wish list :[wishlist@curonet](https://www.amazon.co.jp/gp/registry/wishlist/306ZZ1E7TFK4V/ref=cm_wl_sortbar_o_page_2?ie=UTF8&page=2)   
+* Amazon wish list :[wishlist@curonet](https://www.amazon.co.jp/gp/registry/wishlist/306ZZ1E7TFK4V)   
 
 Both only amazon.co.jp  
 *I don't accept returns and refund for any reasons..plz be careful, thank you.*
