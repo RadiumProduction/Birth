@@ -40,7 +40,7 @@ This app supports currently only for Windows.
 |:------------:|:------------:| 
 | OS | Windows 8.1/10 | 
 | CPU | 1.6G Hz | 
-| RAM | 1G byte | 
+| RAM | 1.0G byte | 
 | Platform | .Net Frameworks 4.5.2 | 
 
 
@@ -72,10 +72,10 @@ C# WPF
 Microsoft Visual Studio 2015
 
 ###Using liberallies
-CoreTweet  
+[CoreTweet](https://coretweet.github.io/)  
 Copyright (c) 2013-2016 CoreTweet Development Team
 
-Newtonsoft.Json  
+[Newtonsoft.Json](http://www.newtonsoft.com/json)  
 Copyright (c) 2007 James Newton-King
 
 ##Donation to developer
