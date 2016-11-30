@@ -6,6 +6,7 @@ Birth is an Immediate Retweet Tool with a Heart.
 ## Description
 Birth is a SNS Twitter Application ,but it can only retweet tweets and send a heart(favorite).  
 Birth can retweet specified tweets and also can send a  heart.
+[Birth's web site](http://curonet.ikaduchi.com/birth/)  
 
 ## Why Birth?
 Birth is acronym of following.  
@@ -98,7 +99,7 @@ Copyright (c) 2016 curonet
 Birth Released under the [MIT license](https://github.com/curonet/Birth/blob/master/LICENSE)
 
 ##Log
-
+* 2016/12/1 -Birth's web site opened.  
 * 2016/11/4 -version 0.1.2(version &beta;) released.  
  * Add network Connection check.  
  * Add display of something warning.  
