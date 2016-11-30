@@ -5,7 +5,7 @@ Birth is an Immediate Retweet Tool with a Heart.
 
 ## Description
 Birth is a SNS Twitter Application ,but it can only retweet tweets and send a heart(favorite).  
-Birth can retweet specified tweets and also can send a  heart.　
+Birth can retweet specified tweets and also can send a  heart.  
 [Birth's web site](http://curonet.ikaduchi.com/birth/)  　
 ## Why Birth?
 Birth is acronym of following.  
