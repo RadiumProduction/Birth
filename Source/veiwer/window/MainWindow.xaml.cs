@@ -328,6 +328,7 @@ namespace Birth_First
                 MessageBox.Show(Properties.Resources.multiple_startup_1, Properties.Resources.multiple_startup_title, MessageBoxButton.OK, MessageBoxImage.Exclamation);
                 second_run = true;
                 this.Close();
+                return;
             }
 
             if (!(Network.Network_Connected()))

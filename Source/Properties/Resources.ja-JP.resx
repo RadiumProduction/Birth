@@ -148,7 +148,7 @@ API規制を受ける可能性があります。</value>
     <value>Birth は既に起動しています。</value>
   </data>
   <data name="multiple_startup_title" xml:space="preserve">
-    <value>二重起動防止</value>
+    <value>Birthは多重機動できません。</value>
   </data>
   <data name="network_error_1" xml:space="preserve">
     <value>ネットワークエラー</value>

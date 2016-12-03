@@ -1326,8 +1326,8 @@ namespace Birth_First
             Close_btn.Source = new BitmapImage(new Uri(Pass.img_settingdir + "/setting.png", UriKind.Relative));
             Close_btn.Height = 30;
             Close_btn.MouseLeftButtonDown += Close_btn_MouseLeftButtonDown;
-            Canvas.SetBottom(Close_btn, 10);
-            Canvas.SetRight(Close_btn, 20);
+            Canvas.SetBottom(Close_btn, 22);
+            Canvas.SetRight(Close_btn, 22);
             this.Children.Add(Close_btn);
 
 
